@@ -21,6 +21,10 @@ class ImageHelper{
 
     
     static func downloadImage( url: URL, completion: @escaping completionBlock){
+        
+        // Approx 15 Images can be cached.
+        cache.countLimit = 15 * 1024 * 1024
+        
         let dataTask = URLSession.shared.dataTask(with: url) { (data, imageUrl, error) in
             var downloadedImage : UIImage?
             if let data = data{
