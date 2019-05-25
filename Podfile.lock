@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.8.2)
+  - IQKeyboardManagerSwift (5.0.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - SDWebImage (5.0.1):
+    - SDWebImage/Core (= 5.0.1)
+  - SDWebImage/Core (5.0.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - IQKeyboardManagerSwift (= 5.0.0)
+  - NVActivityIndicatorView
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  SDWebImage: 27dd2c9ea07a2252f94557c9fbb6105ee94b74c9
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 28a18bba3e4003e9f77ebbff742aa034835dc7ea
+
+COCOAPODS: 1.5.3

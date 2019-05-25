@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30DF31A6E2EEB3BA316B73A2 /* Pods_PinterestTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2822E509F7E128F5816DB779 /* Pods_PinterestTest.framework */; };
 		6300128A22914FC5007012BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6300128922914FC5007012BA /* AppDelegate.swift */; };
 		6300128C22914FC5007012BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6300128B22914FC5007012BA /* ViewController.swift */; };
 		6300128F22914FC5007012BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6300128D22914FC5007012BA /* Main.storyboard */; };
@@ -14,6 +15,21 @@
 		6300129422914FC7007012BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6300129222914FC7007012BA /* LaunchScreen.storyboard */; };
 		6300129F22914FC7007012BA /* PinterestTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6300129E22914FC7007012BA /* PinterestTestTests.swift */; };
 		630012AA22914FC7007012BA /* PinterestTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012A922914FC7007012BA /* PinterestTestUITests.swift */; };
+		630012C0229150F5007012BA /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012BA229150F4007012BA /* Urls.swift */; };
+		630012C1229150F5007012BA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012BB229150F4007012BA /* User.swift */; };
+		630012C2229150F5007012BA /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012BC229150F5007012BA /* Links.swift */; };
+		630012C3229150F5007012BA /* Profile_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012BD229150F5007012BA /* Profile_image.swift */; };
+		630012C4229150F5007012BA /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012BE229150F5007012BA /* Categories.swift */; };
+		630012C5229150F5007012BA /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012BF229150F5007012BA /* BaseClass.swift */; };
+		630012C822915858007012BA /* PinterestAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012C722915858007012BA /* PinterestAPIClient.swift */; };
+		630012CA22915BDF007012BA /* PinterestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012C922915BDF007012BA /* PinterestModel.swift */; };
+		630012CD22915CCC007012BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012CC22915CCC007012BA /* Constants.swift */; };
+		630012D022915F74007012BA /* AppBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012CF22915F74007012BA /* AppBaseVC.swift */; };
+		630012D322916149007012BA /* HomeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012D222916149007012BA /* HomeCollectionCell.swift */; };
+		630012D522916204007012BA /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630012D422916204007012BA /* PinterestLayout.swift */; };
+		63FFEB9022992A08002C9748 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FFEB8F22992A08002C9748 /* ImageHelper.swift */; };
+		ADF038B91CC22FEAC524EACC /* Pods_PinterestTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2729C149C8278912A7DCDD /* Pods_PinterestTestUITests.framework */; };
+		B29D2DA68586068094D05234 /* Pods_PinterestTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1CD963DCF42169514F7162 /* Pods_PinterestTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2083C2172BEA13E537CBB95D /* Pods-PinterestTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinterestTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinterestTestUITests/Pods-PinterestTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2822E509F7E128F5816DB779 /* Pods_PinterestTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinterestTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1CD963DCF42169514F7162 /* Pods_PinterestTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinterestTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2729C149C8278912A7DCDD /* Pods_PinterestTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinterestTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6300128622914FC5007012BA /* PinterestTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6300128922914FC5007012BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6300128B22914FC5007012BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,24 @@
 		630012A522914FC7007012BA /* PinterestTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinterestTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630012A922914FC7007012BA /* PinterestTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestTestUITests.swift; sourceTree = "<group>"; };
 		630012AB22914FC7007012BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630012BA229150F4007012BA /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		630012BB229150F4007012BA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		630012BC229150F5007012BA /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		630012BD229150F5007012BA /* Profile_image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile_image.swift; sourceTree = "<group>"; };
+		630012BE229150F5007012BA /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		630012BF229150F5007012BA /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		630012C722915858007012BA /* PinterestAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestAPIClient.swift; sourceTree = "<group>"; };
+		630012C922915BDF007012BA /* PinterestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestModel.swift; sourceTree = "<group>"; };
+		630012CC22915CCC007012BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		630012CF22915F74007012BA /* AppBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseVC.swift; sourceTree = "<group>"; };
+		630012D222916149007012BA /* HomeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionCell.swift; sourceTree = "<group>"; };
+		630012D422916204007012BA /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		63FFEB8F22992A08002C9748 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		7263A3AB1C5DD8508C364F9E /* Pods-PinterestTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinterestTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinterestTestTests/Pods-PinterestTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		74D42A1EA8CAE0696D76C4BC /* Pods-PinterestTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinterestTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinterestTestTests/Pods-PinterestTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7510A1E49A2EA9639CCB5A01 /* Pods-PinterestTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinterestTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinterestTest/Pods-PinterestTest.release.xcconfig"; sourceTree = "<group>"; };
+		9D856E5B325464E8ACC40054 /* Pods-PinterestTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinterestTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinterestTest/Pods-PinterestTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FDF281F55734F5698DC81AF8 /* Pods-PinterestTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinterestTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinterestTestUITests/Pods-PinterestTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DF31A6E2EEB3BA316B73A2 /* Pods_PinterestTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29D2DA68586068094D05234 /* Pods_PinterestTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF038B91CC22FEAC524EACC /* Pods_PinterestTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C5275D4FAF9DC14048BDBDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D856E5B325464E8ACC40054 /* Pods-PinterestTest.debug.xcconfig */,
+				7510A1E49A2EA9639CCB5A01 /* Pods-PinterestTest.release.xcconfig */,
+				74D42A1EA8CAE0696D76C4BC /* Pods-PinterestTestTests.debug.xcconfig */,
+				7263A3AB1C5DD8508C364F9E /* Pods-PinterestTestTests.release.xcconfig */,
+				2083C2172BEA13E537CBB95D /* Pods-PinterestTestUITests.debug.xcconfig */,
+				FDF281F55734F5698DC81AF8 /* Pods-PinterestTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E26D7981E4BEC65604E6703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2822E509F7E128F5816DB779 /* Pods_PinterestTest.framework */,
+				2C1CD963DCF42169514F7162 /* Pods_PinterestTestTests.framework */,
+				5A2729C149C8278912A7DCDD /* Pods_PinterestTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6300127D22914FC5007012BA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +145,8 @@
 				6300129D22914FC7007012BA /* PinterestTestTests */,
 				630012A822914FC7007012BA /* PinterestTestUITests */,
 				6300128722914FC5007012BA /* Products */,
+				1C5275D4FAF9DC14048BDBDC /* Pods */,
+				3E26D7981E4BEC65604E6703 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +163,17 @@
 		6300128822914FC5007012BA /* PinterestTest */ = {
 			isa = PBXGroup;
 			children = (
+				63FFEB8E229929F5002C9748 /* ImageHelper */,
+				630012D12291612F007012BA /* Cells */,
+				630012CE22915F5B007012BA /* AppBaseVC */,
+				630012CB22915CC0007012BA /* Constants */,
+				630012C62291583C007012BA /* Networking */,
+				630012B8229150CE007012BA /* Models */,
+				630012B9229150D6007012BA /* ViewControllers */,
 				6300128922914FC5007012BA /* AppDelegate.swift */,
-				6300128B22914FC5007012BA /* ViewController.swift */,
 				6300128D22914FC5007012BA /* Main.storyboard */,
-				6300129022914FC7007012BA /* Assets.xcassets */,
 				6300129222914FC7007012BA /* LaunchScreen.storyboard */,
+				6300129022914FC7007012BA /* Assets.xcassets */,
 				6300129522914FC7007012BA /* Info.plist */,
 			);
 			path = PinterestTest;
@@ -125,6 +197,69 @@
 			path = PinterestTestUITests;
 			sourceTree = "<group>";
 		};
+		630012B8229150CE007012BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				630012C922915BDF007012BA /* PinterestModel.swift */,
+				630012BF229150F5007012BA /* BaseClass.swift */,
+				630012BE229150F5007012BA /* Categories.swift */,
+				630012BC229150F5007012BA /* Links.swift */,
+				630012BD229150F5007012BA /* Profile_image.swift */,
+				630012BA229150F4007012BA /* Urls.swift */,
+				630012BB229150F4007012BA /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		630012B9229150D6007012BA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6300128B22914FC5007012BA /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		630012C62291583C007012BA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				630012C722915858007012BA /* PinterestAPIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		630012CB22915CC0007012BA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				630012CC22915CCC007012BA /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		630012CE22915F5B007012BA /* AppBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				630012CF22915F74007012BA /* AppBaseVC.swift */,
+			);
+			path = AppBaseVC;
+			sourceTree = "<group>";
+		};
+		630012D12291612F007012BA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				630012D222916149007012BA /* HomeCollectionCell.swift */,
+				630012D422916204007012BA /* PinterestLayout.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		63FFEB8E229929F5002C9748 /* ImageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				63FFEB8F22992A08002C9748 /* ImageHelper.swift */,
+			);
+			path = ImageHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 630012AE22914FC7007012BA /* Build configuration list for PBXNativeTarget "PinterestTest" */;
 			buildPhases = (
+				D7C6FE74E91357C509947083 /* [CP] Check Pods Manifest.lock */,
 				6300128222914FC5007012BA /* Sources */,
 				6300128322914FC5007012BA /* Frameworks */,
 				6300128422914FC5007012BA /* Resources */,
+				267C4AA3FD937196B83D8733 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 630012B122914FC7007012BA /* Build configuration list for PBXNativeTarget "PinterestTestTests" */;
 			buildPhases = (
+				1B99263A4D3206A455799D12 /* [CP] Check Pods Manifest.lock */,
 				6300129622914FC7007012BA /* Sources */,
 				6300129722914FC7007012BA /* Frameworks */,
 				6300129822914FC7007012BA /* Resources */,
@@ -167,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 630012B422914FC7007012BA /* Build configuration list for PBXNativeTarget "PinterestTestUITests" */;
 			buildPhases = (
+				6112A91DA8F8F94AA9643D6B /* [CP] Check Pods Manifest.lock */,
 				630012A122914FC7007012BA /* Sources */,
 				630012A222914FC7007012BA /* Frameworks */,
 				630012A322914FC7007012BA /* Resources */,
@@ -251,13 +390,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B99263A4D3206A455799D12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinterestTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		267C4AA3FD937196B83D8733 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PinterestTest/Pods-PinterestTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PinterestTest/Pods-PinterestTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6112A91DA8F8F94AA9643D6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinterestTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C6FE74E91357C509947083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinterestTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6300128222914FC5007012BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630012CA22915BDF007012BA /* PinterestModel.swift in Sources */,
+				630012CD22915CCC007012BA /* Constants.swift in Sources */,
+				630012C2229150F5007012BA /* Links.swift in Sources */,
+				630012C4229150F5007012BA /* Categories.swift in Sources */,
+				630012C1229150F5007012BA /* User.swift in Sources */,
+				630012C0229150F5007012BA /* Urls.swift in Sources */,
+				630012C3229150F5007012BA /* Profile_image.swift in Sources */,
+				630012C5229150F5007012BA /* BaseClass.swift in Sources */,
+				630012D322916149007012BA /* HomeCollectionCell.swift in Sources */,
 				6300128C22914FC5007012BA /* ViewController.swift in Sources */,
+				630012D522916204007012BA /* PinterestLayout.swift in Sources */,
+				63FFEB9022992A08002C9748 /* ImageHelper.swift in Sources */,
+				630012C822915858007012BA /* PinterestAPIClient.swift in Sources */,
 				6300128A22914FC5007012BA /* AppDelegate.swift in Sources */,
+				630012D022915F74007012BA /* AppBaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +681,11 @@
 		};
 		630012AF22914FC7007012BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D856E5B325464E8ACC40054 /* Pods-PinterestTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BPYYNMJ4S;
 				INFOPLIST_FILE = PinterestTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +700,11 @@
 		};
 		630012B022914FC7007012BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7510A1E49A2EA9639CCB5A01 /* Pods-PinterestTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BPYYNMJ4S;
 				INFOPLIST_FILE = PinterestTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +719,7 @@
 		};
 		630012B222914FC7007012BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D42A1EA8CAE0696D76C4BC /* Pods-PinterestTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +740,7 @@
 		};
 		630012B322914FC7007012BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7263A3AB1C5DD8508C364F9E /* Pods-PinterestTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +761,7 @@
 		};
 		630012B522914FC7007012BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2083C2172BEA13E537CBB95D /* Pods-PinterestTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +781,7 @@
 		};
 		630012B622914FC7007012BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF281F55734F5698DC81AF8 /* Pods-PinterestTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
